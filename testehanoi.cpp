@@ -40,11 +40,20 @@ void girandoEbraco (){
 printf("Girando para a esquerda o braco \n");
 }
 
-void start(){}
     
     int main (void){
         pontoZero();
         abrirGarra();
+        girandoDbraco();
+        descendoGarra();
+
+
+        fecharGarra();
+        subindoGarra();
+        girandoEbraco();
+        descendoGarra();
+        abrirGarra();
+
 
         return 0;
     }
