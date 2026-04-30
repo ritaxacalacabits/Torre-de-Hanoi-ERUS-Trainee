@@ -39,6 +39,8 @@ printf("Girando para a direita o braco \n");
 void girandoEbraco (){
 printf("Girando para a esquerda o braco \n");
 }
+
+void start(){}
     
     int main (void){
         pontoZero();
